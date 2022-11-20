@@ -1,11 +1,12 @@
 import { Text } from "react-native";
 
+import Header from "../../components/Header";
 import { Container } from "./styles";
 
 const Main = () => {
   return (
     <Container>
-      <Text>Olaaaaa</Text>
+      <Header />
     </Container>
   );
 }
