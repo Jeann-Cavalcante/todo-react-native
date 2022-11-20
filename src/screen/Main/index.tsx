@@ -1,10 +1,12 @@
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+
+import { Container } from "./styles";
 
 const Main = () => {
   return (
-    <View>
+    <Container>
       <Text>Olaaaaa</Text>
-    </View>
+    </Container>
   );
 }
 
